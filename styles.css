@@ -1,4 +1,38 @@
-body {
-    background-color: black;
+header {
+    background-color: #4caf50;
     color: wheat;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+aside {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+footing {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+
 }
