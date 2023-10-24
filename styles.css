@@ -1,38 +1,120 @@
-header {
-    background-color: #4caf50;
-    color: wheat;
-    padding: 1rem;
-    text-align: center;
-}
 
-nav ul {
-    list-style-type: none;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('images/infinity.png'); /* Replace with your background image URL */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #333;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+#page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Aligns content to the top */
+    width: 100%;
+    min-height: 100vh;
 }
 
-main {
-    padding: 1rem;
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* 80% white background for slight transparency */
+    border-radius: 10px; /* Optional: for rounded corners */
+    width: 80%;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: for a slight shadow effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
-section {
-    margin-bottom: 2rem;
-}
-
-aside {
-    background-color: #f5f5f5;
-    padding: 1rem;
-    margin: 1rem 0;
-}
-
-footing {
-    background-color: #333;
-    color: #fff;
+header, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:fit-content;
+    color: black;
+    padding: 20px 0;
     text-align: center;
-    padding: 1rem 0;
-
 }
+
+
+header a, footer a {
+    color: #3498db;
+}
+
+.tagline {
+    font-style: italic;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#bio, #projects {
+    background-color: rgba(255, 255, 255, 0.9   ); /* 80% white background for slight transparency */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ... rest of your CSS code ... */
+
+.flex-container-bio {
+    display: flex;
+    align-items: stretch;
+}
+
+.bio-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.bio-image {
+    flex-shrink: 0;
+    width: calc(100% / 3);
+}
+
+.bio-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* ... rest of your CSS code ... */
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+.project-image {
+    flex-shrink: 0;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.project-info {
+    flex: 1;
+}
+
+/* ... rest of your CSS code ... */
+
+

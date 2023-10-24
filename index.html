@@ -1,45 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
-    <title>Personal Website</title>
-    <link rel = "stylesheet" href = "styles.css" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frankie Ortiz - Software Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>  
+<div id="page-container">
 
-  <body>
-    <header >
-      <h1>Welcome to my website!</h1>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="home">
-        <h2>Welcome to my website</h2>
-        <p>This is my homepage content</p>
-      </section>
+<header>
+    <div class="container">
+        <h1>Frankie Ortiz</h1>
+        <p class="tagline">Blending Curiosity with Code</p>
+        <p>Email: Frankie.ortiz2001@gmail.com | Phone: (512) 770-7160 | <a href="https://www.linkedin.com/in/FrankieOrtiz" target="_blank">LinkedIn</a> | <a href="https://github.com/TheNinthCalling" target="_blank" >Github</a> </p>
+    </div>
+</header>
 
-      <section id="about">
-        <h2>About Me.</h2>
-        <p>Information about me.</p>
+<section id="bio" class="container flex-container">
+  <div class="bio-text">
+      <p>Hi yall! My name is Frankie, as the title of the website would suggest. I am a student at The University of Texas at Austin studying Electrical and Computer Engineering, with a focus in Software Engineering and Design. A mouthful, I know. Imagine having to say all that in person.</p>
+      <p>If you're here then it's likely to figure out who I am, what drives me, and what I hope to accomplish: A simple answer would be that I want to be a software engineer working on projects that matter, driven by the opportunity to learn and grow. </p>
+      <p>The other answer is that I don't quite know yet. I want to be a software engineer, a cybersecurity specialist, a data scientist, a game designer, a robotics expert, and so much more.<br><br>
+      With that being said, software engineering and its practices are at the crux of every field. That is the field I have chosen and the one I plan to excel in.
+      Besides, I sure am enjoying figuring it out, which is a great segway into taking a look at my projects below.<br><em>(p.s. The hackathon project was the most fun, albeit a work-in-progress.)<br>(p.s.s. Granted, the same goes for this website)</em></p>
+  </div>
+  <div class="bio-image">
+      <img src="your-image-url.jpg" alt="Frankie Ortiz">
+  </div>
+</section>
 
-      </section>
-      <section id="projects">
-        <h2>Contact Me.</h2>
-        <p>How to reach me.</p>
-      </section>
-    </main>
-    <aside>
-      <h3>Sidebar</h3>
-      <p>This is some sidebar content</p>
-    </aside>
-    <footer>
-      <p>Copyright @2023 My Website</p>
-    </footer>
-  </body>
+<section id="projects" class="container">
+  <h2>Projects</h2>
+
+  <div class="project flex-container">
+      <div class="project-image">
+          <img src="images/carbonflights.png" alt="Carbon Flights Project Image">
+      </div>
+      <div class="project-info">
+          <div class="project-title"><strong>Carbon Flights (October 2023)</strong></div>
+          <div class="project-description">
+            <p>Front-End-Stack: Html, Css, Javascript | Back-end Stack: Python, Flask | Database: MongoDB | Deployment/Version-control/ci/cd: heroku, git, github</p>
+            <p><a href="http://www.carbonflights.tech/" class="project-link" target="_blank">Live Demo</a> | <a href="https://github.com/TheNinthCalling/carbon-flights-hacktx23" class="project-link" target="_blank">GitHub Repository</a></p>
+          </div>
+      </div>
+  </div>
+
+  <div class="project flex-container">
+      <div class="project-image">
+          <img src="project2-image-url.jpg" alt="Video Game Store Management System Project Image">
+      </div>
+      <div class="project-info">
+          <div class="project-title"><strong>Video Game Store Management System (August 2023)</strong></div>
+          <div class="project-description">
+            <p>Collaboratively developed a video game store inventory system with Java Spring Boot, REST, and GraphQL API, ensuring data integrity, efficient management, and accurate invoicing, deployed on AWS.</p>
+            <p><a href="https://github.com/TheNinthCalling/Video_Game_Store-Management_System" class="project-link" target="_blank">GitHub Repository</a></p>
+        </div>
+      </div>
+  </div>
+
+  <div class="project flex-container">
+      <div class="project-image">
+          <img src="project3-image-url.jpg" alt="Full-Stack Mock HaaS Site Project Image">
+      </div>
+      <div class="project-info">
+          <div class="project-title"><strong>Full-Stack Mock HaaS Site (Spring 2023)</strong></div>
+          <div class="project-description">
+            <p>Utilized React, Python, and Heroku to establish a mock website, providing users the capability to both generate projects and “borrow” essential hardware for those same projects.</p>
+            <p><a href="https://github.com/TheNinthCalling/appHaaS" class="project-link" target="_blank">GitHub Repository</a></p>
+          </div>
+      </div>
+  </div>
+
+</section>
+
+<footer>
+    <div class="container">
+        <p>Updated: October 2023</p>
+    </div>
+</footer>
+
+</div>
+</body>
 </html>
+
+
