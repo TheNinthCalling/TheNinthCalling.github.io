@@ -1,8 +1,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url('images/infinity.png'); /* Replace with your background image URL */
-    /* background-size: cover; */
+    background-image: url('images/infinity.png'); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
@@ -66,8 +65,6 @@ header a, footer a {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* ... rest of your CSS code ... */
-
 .flex-container-bio {
     display: flex;
     align-items: stretch;
@@ -89,8 +86,6 @@ header a, footer a {
     object-fit: cover;
     border-radius: 8px;
 }
-
-/* ... rest of your CSS code ... */
 
 .flex-container {
     display: flex;
@@ -115,6 +110,5 @@ header a, footer a {
     flex: 1;
 }
 
-/* ... rest of your CSS code ... */
 
 
