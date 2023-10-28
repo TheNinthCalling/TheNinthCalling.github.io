@@ -110,5 +110,12 @@ header a, footer a {
     flex: 1;
 }
 
+.project-tagline {
+    font-size: 16px;
+    color: #777; /* A slightly muted color for contrast */
+    margin-top: 5px;
+    margin-bottom: 15px; /* Spacing to separate it from the description */
+    font-style: italic; /* Optional: to give it a distinct look */
+}
 
 
